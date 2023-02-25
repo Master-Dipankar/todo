@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:todo/slides/home.dart';
 
-void main(){
-  runApp(MyApp());
+void main() {
+  runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget{
           backgroundColor: Colors.cyan,
         ),
       ),
-      home: HomePage(),
+      home: const HomePage(),
       // theme: ThemeData.dark(),
     );
   }
