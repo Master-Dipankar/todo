@@ -131,8 +131,8 @@ class _InputPageState extends State<InputPage> {
             TextField(
               decoration: const InputDecoration(hintText: 'Description'),
               keyboardType: TextInputType.multiline,
-              minLines: 5,
-              maxLines: 8,
+              minLines: 3,
+              maxLines: 10,
               controller: descriptionController,
               onChanged: (_) => checkFields(),
             ),
